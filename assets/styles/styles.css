@@ -1,0 +1,725 @@
+body{ background-color: rgb(0, 24, 2);
+    font-family: nunito, sans-serif ;
+    font-size: 2.5vh;
+    }
+nav{z-index: 9;
+    display: flex;
+    background-color: rgb(0, 24, 2);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-direction: row-reverse;
+    padding-bottom: 1rem;
+    padding-top: 5px;
+    box-shadow: 0 0 2rem green;
+}
+nav > ul > li{
+    
+    display: inline-block;
+    
+    font-size: 1.8vh;
+   
+}
+nav > ul > li > a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(4, 161, 43);
+    padding: 1rem;
+    border-radius: 3px;
+   
+}
+nav > ul > li > a:hover{
+    box-shadow:  0px 0px 10px 0.5px rgb(4, 161, 43);
+    color: rgb(4, 161, 43);
+    transition: all .5s linear;
+
+}
+.home{font-weight: bold;
+    
+}
+.cabezado{display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #015a05d5;
+    margin-top: 40vh;
+    margin-bottom: 30vh;
+   
+   
+}
+.cabezado  img{
+    width: 450px;
+    border-radius: 5px;
+}
+
+.cabezado :hover{
+    box-shadow: 0 0 20px #02990ad5;
+    color: rgb(255, 255, 255);
+    transition: all .5s linear;
+}
+.contenedor{
+    margin-top: 12vh;
+    
+}
+
+
+
+
+
+
+
+
+.cel{margin-top: 30vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 24, 2);
+    height: 13vh;
+    align-items: center;
+    
+}
+.cel div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vh;
+    height: 20vh;
+    background-color: rgb(1, 95, 4);
+    border-radius: 10px;
+}
+.celulares{
+    
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    justify-content: space-around;
+}
+.contenido{
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10vh;
+    width: 30vh;
+    height: 60vh;
+    background-color:#ffffff ;
+    box-shadow: none;
+}
+.contenido img{
+    margin-top: 1vh;
+    width: 27vh;
+    height: 45vh;
+    border-radius: 10px;
+}
+.celulares :hover{
+    box-shadow: 0 0 20px #02990ad5;
+    color: #02990ad5;
+    transition: all .5s linear;}
+    .celulares :hover > p{
+        box-shadow: none;
+    }
+    .celulares :hover > img{
+        box-shadow: none;
+    }
+    .celulares :hover > .src{
+        box-shadow: none;
+    }
+    .celulares :hover a{
+        color: #ffffff;
+    }
+    .celulares :hover .precio{
+        color: #000000;
+    }
+    
+.nombre{
+    box-shadow: none;
+    font-size: 1.9vh;
+    position: absolute;
+    padding: 2.5vh 1vh 2.5vh 1vh ;
+    border-radius: 10px;
+    border: 3px solid rgb(157, 160, 157);
+    margin-top: 35vh;
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}    
+.src a{
+    padding: 1.7vh 2.5vh;
+    background-color: #02990a;
+    border-radius: 60px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 43vh;
+    margin-left: 23.5vh;
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.precio{
+    position: absolute;
+    margin-top: 50vh;
+    width: 25vh;
+    font-size: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tel{margin-top: 12vh;
+    color: rgb(4, 161, 43);
+    display: flex;
+    justify-content: center;
+
+}
+.tablet{
+    
+    display: grid;
+    grid-template-columns: auto auto   ;
+    justify-content: space-around;
+}
+.contenido2{
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10vh;
+    width: 45vh;
+    height: 60vh;
+    background-color:#ffffff ;
+    box-shadow: none;
+}
+.contenido2 img{
+    margin-top: 1vh;
+    width: 35vh;
+    height: 45vh;
+    border-radius: 10px;
+}
+
+.tablet :hover{
+    box-shadow: 0 0 20px #02990ad5;
+    color: #02990ad5;
+    transition: all .5s linear;}
+    
+    
+    .tablet :hover > p{
+        box-shadow: none;
+    }
+    .tablet :hover > img{
+        box-shadow: none;
+    }
+    .tablet :hover > .src2{
+        box-shadow: none;
+    }
+    .tablet :hover a{
+        color: #ffffff;
+    }
+    .tablet :hover .precio2{
+        color: #000000;
+    }
+
+    .nombre2{
+        box-shadow: none;
+        font-size: 1.9vh;
+        position: absolute;
+        padding: 2.5vh 1vh 2.5vh 1vh ;
+        border-radius: 10px;
+        border: 3px solid rgb(157, 160, 157);
+        margin-top: 35vh;
+        background-color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }    
+    .src2 a{
+        padding: 1.7vh 2.5vh;
+        background-color: #02990a;
+        border-radius: 60px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 25vh;
+        margin-left: 34.9vh;
+        text-decoration: none;
+        font-size: 3vh;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+    .precio2{
+        position: absolute;
+        margin-top: 50vh;
+        width: 25vh;
+        font-size: 2vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .tel2{margin-top: 12vh;
+        color: rgb(4, 161, 43);
+        display: flex;
+        justify-content: center;
+    
+    }
+    .tablet2{
+        
+        display: grid;
+        grid-template-columns: auto auto auto  ;
+        justify-content: space-around;
+    }
+    .contenido3{
+        display:flex;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 10vh;
+        width: 30vh;
+        height: 60vh;
+        background-color:#ffffff ;
+        box-shadow: none;
+    }
+    .contenido3 img{
+        margin-top: 1vh;
+        width: 30vh;
+        height: 46vh;
+        border-radius: 10px;
+    }
+    
+    .tablet2 :hover{
+        box-shadow: 0 0 20px #02990ad5;
+        color: #02990ad5;
+        transition: all .5s linear;}
+        
+        
+        .tablet2 :hover > p{
+            box-shadow: none;
+        }
+        .tablet2 :hover > img{
+            box-shadow: none;
+        }
+        .tablet2 :hover > .src3{
+            box-shadow: none;
+        }
+        .tablet2 :hover a{
+            color: #ffffff;
+        }
+        .tablet2 :hover .precio2{
+            color: #000000;
+        }
+    
+        .nombre3{
+            box-shadow: none;
+            font-size: 1.9vh;
+            position: absolute;
+            padding: 2.5vh 1vh 2.5vh 1vh ;
+            border-radius: 10px;
+            border: 3px solid rgb(157, 160, 157);
+            margin-top: 41vh;
+            margin-left: 6vh;
+            background-color: aliceblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }    
+        .src3 a{
+            padding: 1.7vh 2.5vh;
+            background-color: #02990a;
+            border-radius: 60px;
+            position: absolute;
+            z-index: 2;
+            margin-top: 25vh;
+            margin-left: 26vh;
+            text-decoration: none;
+            font-size: 3vh;
+            font-weight: bolder;
+            color: #ffffff;
+        }
+        .precio3{
+            position: absolute;
+            margin-top: 50vh;
+            margin-left: 1vh;
+            width: 25vh;
+            font-size: 2vh;
+        }
+
+
+
+    .cuadrito{
+        z-index: 3;
+        position:sticky;
+        top: 20vh;
+        left: 150vh;
+        margin-top: -100px;
+        width: 70px;
+        height: 70px;
+        background-color: rgb(4, 121, 33);
+        border-radius: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cuadrito:hover{
+        box-shadow: 0 0 20px #02990ad5;
+        color: #02990ad5;
+        transition: all .5s linear;
+    }
+    .cuadrito a img{
+        margin-top: 6px;
+        width: 50px;
+    }
+    footer>div{
+        margin-top: 5vh;
+        background-color:#012504;
+        height: 20vh;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .grr{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .bloques{
+        color: #ffffff;
+        background-color: #012504;
+        height: 15vh;
+        width: 30vh;
+        margin-right: 5vh;
+        margin-left: 5vh;
+        display: flex;
+        justify-content: center;
+    }
+    /*.bloques div {
+        width: 28vh;
+        margin-top: 1rem;
+        display: block;
+    }*/
+@media screen and (min-width: 600px){
+    .hidden{
+        display: none;
+    }}
+    @media screen and (max-width: 600px){
+        .cel{margin-top: 30vh;
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            background-color: rgb(0, 24, 2);
+            height: 13vh;
+            align-items: center;
+            
+        }
+        .cel div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 17vh;
+            height: 20vh;
+            background-color: rgb(1, 95, 4);
+            border-radius: 10px;
+        }
+        .celulares{
+            
+            display: grid;
+            grid-template-columns: auto auto auto  ;
+            justify-content: space-around;
+        }
+        .contenido{
+            display:flex;
+            justify-content: center;
+            border-radius: 10px;
+            margin-top: 10vh;
+            width: 20vh;
+            height: 60vh;
+            background-color:#ffffff ;
+            box-shadow: none;
+        }
+        .contenido img{
+            margin-top: 1vh;
+            width: 20vh;
+            height: 35vh;
+            border-radius: 10px;
+        }  
+        .nombre{
+            box-shadow: none;
+            font-size: 1.9vh;
+            position: absolute;
+            padding: 2.5vh 1vh 2.5vh 1vh ;
+            border-radius: 10px;
+            border: 3px solid rgb(157, 160, 157);
+            margin-top: 35vh;
+            background-color: aliceblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }    
+        .src a{
+            padding: 1.7vh 2.5vh;
+            background-color: #02990a;
+            border-radius: 60px;
+            position: absolute;
+            z-index: 2;
+            margin-top: 43vh;
+            margin-left: 17vh;
+            text-decoration: none;
+            font-size: 3vh;
+            font-weight: bolder;
+            color: #ffffff;
+        }
+        .precio{
+            position: absolute;
+            margin-top: 50vh;
+            width: 20vh;
+            font-size: 2vh;
+        }
+        
+        
+        
+        
+        
+        
+        
+        .tel{margin-top: 12vh;
+            color: rgb(4, 161, 43);
+            display: flex;
+            justify-content: center;
+        
+        }
+        .tablet{
+            
+            display: grid;
+            grid-template-columns: auto auto   ;
+            justify-content: space-around;
+        }
+        .contenido2{
+            display:flex;
+            justify-content: center;
+            border-radius: 10px;
+            margin-top: 10vh;
+            width: 30vh;
+            height: 60vh;
+            background-color:#ffffff ;
+            box-shadow: none;
+        }
+        .contenido2 img{
+            margin-top: 1vh;
+            width: 30vh;
+            height: 45vh;
+            border-radius: 10px;
+        }
+        
+        .src2 a{
+            padding: 1.7vh 2.5vh;
+            background-color: #02990a;
+            border-radius: 60px;
+            position: absolute;
+            z-index: 2;
+            margin-top: 25vh;
+            margin-left: 26vh;
+            text-decoration: none;
+            font-size: 3vh;
+            font-weight: bolder;
+            color: #ffffff;
+        }
+        
+        
+        
+        .tel2{margin-top: 12vh;
+            color: rgb(4, 161, 43);
+            display: flex;
+            justify-content: center;
+        
+        }
+        .tablet2{
+            
+            display: grid;
+            grid-template-columns: auto auto auto  ;
+            justify-content: space-around;
+        }
+        .contenido3{
+            display:flex;
+            justify-content: center;
+            border-radius: 10px;
+            margin-top: 10vh;
+            width: 22vh;
+            height: 60vh;
+            background-color:#ffffff ;
+            box-shadow: none;
+        }
+        .contenido3 img{
+            margin-top: 1vh;
+            width: 22vh;
+            height: 30vh;
+            border-radius: 10px;
+        }
+        
+        .tablet2 :hover{
+            box-shadow: 0 0 20px #02990ad5;
+            color: #02990ad5;
+            transition: all .5s linear;}
+        
+            .nombre3{
+                box-shadow: none;
+                font-size: 1.9vh;
+                position: absolute;
+                padding: 2.5vh 1vh 2.5vh 1vh ;
+                border-radius: 10px;
+                border: 3px solid rgb(157, 160, 157);
+                margin-top: 41vh;
+                margin-left: 0;
+                background-color: aliceblue;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }    
+            .src3 a{
+                padding: 1.7vh 2.5vh;
+                background-color: #02990a;
+                border-radius: 60px;
+                position: absolute;
+                z-index: 2;
+                margin-top: 25vh;
+                margin-left: 18vh;
+                text-decoration: none;
+                font-size: 3vh;
+                font-weight: bolder;
+                color: #ffffff;
+            }
+            .precio3{
+                position: absolute;
+                margin-top: 50vh;
+                margin-left: 1vh;
+                width: 22vh;
+                font-size: 2vh;
+            }
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        .hidden2{
+            display: none;
+        }
+    
+    
+    
+    
+        .icono-menu{
+            margin: 4px 5px;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .icono-menu img{
+           
+            vertical-align: top;
+            width: 40px;
+            cursor: pointer;
+            background-color: rgb(4, 121, 33);
+            border-radius: 20px;
+            
+        }
+        
+        /* Estilos para el contenedor del Menú */
+        .cont-menu{
+            background-color: rgb(0, 0, 17);
+            box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+            width: 400px;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all .5s ease;
+        }
+        
+        /* Estilos por agregar en JavaScript */
+        .active{
+            transform: translate(-600px);
+        }
+        
+        /* Estilos para el listado del Menú */
+        .cont-menu ul{
+            padding: 100px 0px 20px 0px;
+            list-style: none;
+        }
+        
+        .cont-menu ul li a{
+            color: white;
+            display: block;
+            font-size: 25px;
+            text-decoration: none;
+            padding: 10px 50px;
+            cursor: pointer;
+        }
+        
+        .cont-menu ul li a:hover{
+            background-color: rgb(4, 121, 33);
+            color: rgb(0, 0, 0);
+        }
+        nav{z-index: 9;
+            display: flex;
+            background-color: rgb(0, 0, 17);
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            flex-direction: row-reverse;
+            padding-bottom: 1rem;
+        }
+
+        
+        footer>div{
+            margin-top: 5vh;
+            background-color:#012504;
+            height: 20vh;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .grr{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .bloques{
+            color: #ffffff;
+            background-color: #012504;
+            height: 15vh;
+            width: 10vh;
+            margin-right: 5vh;
+            margin-left: 5vh;
+            display: flex;
+            justify-content: center;
+        }
+
+
+}
+    
